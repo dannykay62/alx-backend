@@ -1,12 +1,13 @@
-## 0x00. Pagination
+# 0x00. Pagination
 
-# Resources
+## Resources
 Read or watch:
 
 [REST API Design: Pagination](https://intranet.alxswe.com/rltoken/7Kdzi9CH1LdSfNQ4RaJUQw)
+
 [HATEOAS](https://intranet.alxswe.com/rltoken/tfzcEbTSdMYSYxsspJH_oA)
 
-# Learning Objectives
+## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 How to paginate a dataset with simple page and page_size parameters
