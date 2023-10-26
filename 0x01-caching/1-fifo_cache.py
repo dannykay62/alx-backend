@@ -13,7 +13,7 @@ class FIFOCache(BaseCaching):
         super().__init__()
         self.data = {}
         self.next_in, self.next_out = 0, 0
-    
+
     def _pop_element(self):
         """FIFO algorithm to remove element"""
         self.next_out += 1
