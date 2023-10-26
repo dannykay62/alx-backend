@@ -1,10 +1,12 @@
 #!/usr/bin/python3
-""" LIFO Caching """
+"""LIFOCache that inherits from BaseCaching and is a caching system"""
 from base_caching import BaseCaching
 
 
 class LIFOCache(BaseCaching):
-    """ Class that inherits from BaseCaching and is a caching system """
+    """ use self.cache_data - dictionary from the parent class BaseCaching
+        overload def __init__(self)
+    """
     def __init__(self):
         super().__init__()
         self.last_key = ''
