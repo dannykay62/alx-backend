@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Basic Flask app that use request.accept_languages"""
-from flask import Flask, render_templates
+from flask import Flask, render_templates, request
 from flask_babel import Babel
 
 app = Flask(__name__)
