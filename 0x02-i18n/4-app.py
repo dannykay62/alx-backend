@@ -11,7 +11,7 @@ babel = Babel(app)
 """instantiating the object of the babel"""
 
 
-class Config(on=bject):
+class Config(object):
     """Configuration class"""
     LANGUAGES = ['en', 'fr']
     BABEL_DEFAULT_LOCALE = 'en'
